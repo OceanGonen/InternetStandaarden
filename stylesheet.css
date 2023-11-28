@@ -1,0 +1,477 @@
+/* /////////////////////////////////Index page styling///////////////////////////////////// */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(15, 15, 75)
+}
+
+header {
+    background-color: #3366cc;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000099;
+    padding: 0.5em;
+}
+
+nav a {
+    color: whitesmoke;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.titleIndex{
+    text-align: center;
+    color: whitesmoke;
+    font-size: xx-large;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.column1{
+    border:5px solid whitesmoke;
+    display:flex;
+    margin-top: 1%;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    position: relative;
+}
+
+.current{
+    border: solid whitesmoke;
+}   
+
+.row{
+    padding-bottom: 28%;            
+}
+
+.column2{
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    float: left;
+    max-width: 500px;
+}
+
+.aboutfriends{
+    color: whitesmoke;
+    float: left;
+    position: relative;   
+    margin-left: 20%;
+    margin-right: 10px;
+    display: inline;
+    max-width: 500px;
+    
+
+}
+
+.friends-img{
+    border:5px solid whitesmoke;
+    display:flex;
+    height: 300px;
+    width: 400px;
+    margin-top: 2%;
+
+    
+}
+
+
+nav #lang{
+    display: inline-flex;
+    float: right;
+    position: absolute;
+    margin-left: 90%;
+
+}
+
+/*/////////////////////////////////// Career page styling/////////////////////////////////// */
+body.career {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #a6d5c9;
+    color: white;
+   
+}
+
+header.career {
+    background-color: #00641A;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav.career   {
+    display: flex;
+    justify-content: center;
+    background-color: #0F8C6E;
+    padding: 0.5em;
+    border-top: 1px  solid darkgreen;
+    border-bottom: 1px  solid darkgreen;
+}
+
+nav a {
+    color: white;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.title {
+    color: darkgreen;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border-bottom:1px solid #00641A;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
+}
+
+div.myfreelance{
+    color:#00641A;
+    padding: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    border: 5px solid darkgreen;
+    max-width: 880px;
+}
+
+.freelance-img{
+    border: 5px solid darkgreen;
+    margin-left: 20%;
+    margin-bottom: 14px;
+}
+
+.stroomcontainer{
+    display:flex;
+    margin-bottom: 1%;
+}
+
+.myStroom{
+    color:#00641A;
+    padding: 1em;
+    margin-top: 1%;
+    margin-left: 20%;
+    background-color: whitesmoke;
+    border: 5px solid darkgreen;
+    max-width: 440px;
+}
+
+.stroom-img{
+    border: 5px solid darkgreen;
+    max-width: 400px;
+    max-height: 550px;
+    margin-top: 1%;
+    margin-left: 28px;
+}
+
+.gatecontainer{
+    display:flex;
+    margin-bottom: 1%;
+}
+
+.gate-img{
+    border: 5px solid darkgreen;
+    max-width: 400px;
+    max-height: 550px;
+    margin-left: 20%;
+}
+
+.myGate{
+    color:#00641A;
+    padding: 1em;
+    margin-left: 28px;
+    background-color: whitesmoke;
+    border: 5px solid darkgreen;
+    max-width: 440px;
+}
+
+
+
+
+/*/////////////////////////////////// Chess page styling/////////////////////////////////// */
+body.chess {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #86592d;
+}
+
+header.chess {
+    background-color: #4d3300;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav.chess {
+    display: flex;
+    justify-content: center;
+    background-color: #332200;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.chessHeader{
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.chess-banner{
+  content: "";
+  clear: both;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.chess-img{
+    float: left;
+    width: 33.33%;
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 8px solid #332200;
+}
+.myChess{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid white;
+}
+
+div.mychessStats{
+    color: white;   
+    margin-left: 20%;
+}
+
+.rank-img{
+    display: flex;
+}
+.graph-img{
+    margin-left: 20%;
+    max-width: 28%;
+    border: 8px solid #332200;
+    margin-right: 2%;
+}   
+.puzzlerank-img{
+    max-width: 28%;
+    border: 8px solid #332200;
+}
+
+.rank-title{
+    display: flex ;
+    color: white;
+    margin-left: 20%;
+}
+
+.rank-title>h3{
+    margin-right: 31%;
+}
+
+.row-winrate{
+    display: flex;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-top: 1px solid white;    
+    padding-top: 30px;
+}
+
+.row-winrate h2{
+    margin-right: 140px;
+    font-size: xx-large;
+}
+
+.table-header{
+    margin-top: 5%;
+    margin-left: 20%;
+    color: white;
+}
+.tables{
+    display: flex;
+    margin-bottom: 2%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-right: 68px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color:#B8B8B8;
+  }
+
+  .table-wins{
+    margin-left: 20%;
+  }
+
+  .table-wins th{
+    background-color: #0f8c45;
+  }
+
+  .table-draws th{
+    background-color: grey;
+  }
+
+  .table-losses th{
+    background-color:indianred;
+  }
+
+/*/////////////////////////////////// Music page styling/////////////////////////////////// */
+body.music {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #7575a3;
+}
+
+header.music {
+    background-color: #5c5c8a;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav.music {
+    display: flex;
+    justify-content: center;
+    background-color: #3d3d5c;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+div.mymusic{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid white;
+
+}
+
+.songtitle{
+    float: left;
+    text-align: left;   
+    max-width: 600px;
+    margin-left: 20%;
+    padding-right: 500px;
+    color: white;
+}   
+.row-guitar{
+    float: left;
+    margin-left: 20%;
+}
+
+.lyrics{
+    max-width:350px;
+    color: #3d3d5c;
+    border: 4px solid#3d3d5c;
+    background-color: whitesmoke;
+    padding: 1em;
+    margin-top: 4%;
+}
+.lyrics2 {
+    max-width:350px;    
+    color: #3d3d5c;
+    border: 4px solid#3d3d5c;
+    background-color: whitesmoke;
+    padding: 1em;
+    margin-top: 4%;
+    padding-bottom: 88px;
+}
+.location-vid{
+    float: right;
+    margin-top: 1%;
+    margin-right: 20%;
+    border: 4px solid #3d3d5c;  
+}
+
+
+
+.button{
+    float: right;
+    margin-right: 20%;
+    margin-top: 1%;
+    width: 608px;
+    font-size:xx-large;
+    text-align: center;
+    border: 2px solid white;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: #313160;
+    color: white;
+    cursor: pointer; 
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+       
+}
+
+.pagenumber{
+    text-align: center;
+    color: white;
+    margin-top: 33%;
+    
+}
