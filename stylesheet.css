@@ -136,6 +136,7 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+    color: white;
 }
 
 .title {
@@ -254,7 +255,6 @@ nav a:hover {
     margin-right: 20%;
 }
 .chess-banner{
-  
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
