@@ -547,6 +547,11 @@ div.mymusic{
     padding-bottom: 7.9em;
     margin-top: 4%;
 }
+
+.lyrics>p{
+    padding-top: 1.15em;
+    
+}
 .lyrics2 {
     max-width:350px;    
     color: #3d3d5c;
@@ -555,6 +560,10 @@ div.mymusic{
     padding: 1em;
     margin-top: 4%;
     padding-bottom: 9.8em;
+}
+.lyrics2>p{
+    padding-top: 2em;
+    
 }
 .location-img{
     float: right;
