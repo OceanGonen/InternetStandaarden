@@ -3,10 +3,9 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: rgb(15, 15, 75);
     background-image: url('images/aboutme/background6-2.png');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: 100% 100%;
     scroll-behavior: smooth;
 }
@@ -19,19 +18,21 @@ header {
 
 }
 
-.nav-index{
+.nav-index {
     display: flex;
     justify-content: center;
     background-color: #101010;
-    padding: 0.5em; 
+    padding: 0.5em;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    
+    margin-top: 0;
+    list-style-type: none;
+
 }
 
 nav a {
     color: whitesmoke;
-    padding: 0.5em 1em; 
+    padding: 0.5em 1em;
     margin: 0 0.25em;
     border-radius: 1em;
 }
@@ -42,91 +43,89 @@ nav a:hover {
     cursor: pointer;
 }
 
-.titleIndex{
+.titleIndex {
     text-align: center;
     color: whitesmoke;
-    font-size: xx-large;
+    font-size: 2em;
     border-bottom: 0.0025em solid whitesmoke;
     padding-bottom: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20% 0 20%;
 }
 
-.column1{
-    border: 0.5em  solid whitesmoke;
-    display:flex;
-    margin-top: 1%;
-    margin-left: 20%;
+.column1 {
+    border: 0.4em solid whitesmoke;
+    display: flex;
+    margin: 1% 0 0 20%;
     align-items: center;
     justify-content: center;
     float: left;
     position: relative;
 }
 
-.current{
+.current {
     border: solid whitesmoke;
-}   
-
-.row{
-    padding-bottom: 28%;
-    border-bottom: whitesmoke;  
-    border-top: whitesmoke;     
 }
 
-.column2{
+.row {
+    padding-bottom: 28%;
+    border-bottom: whitesmoke;
+    border-top: whitesmoke;
+}
+
+.column2 {
     color: whitesmoke;
-    padding-left: 4em;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding: 0 200px 100px 4em;
     float: left;
     max-width: 500px;
 }
 
-.row2{
+.row2 {
     margin-bottom: 3%;
 }
 
-.aboutfriends{
+.aboutfriends {
     color: whitesmoke;
     float: left;
-    position: relative;   
-    margin-left: 20%;
-    margin-right: 10px;
+    position: relative;
+    margin: 0 10px 0 20%;
     display: inline;
     max-width: 500px;
 
 }
 
-.friends-img{
-    border:5px solid whitesmoke;
-    display:flex;
+.friends-img {
+    border: 0.4em solid whitesmoke;
+    display: flex;
     height: 300px;
     width: 400px;
     margin-top: 2%;
 
-    
+
 }
 
 
-nav #lang{
+nav #lang {
     display: inline-flex;
     float: right;
     position: absolute;
-    margin-left: 90%;
+    margin: 0.5em 0 0 90%;
 
 }
-footer, h3, p {
+
+footer,
+h3,
+p {
     margin: 0;
     padding: 0;
-  }
-
-
-ul>li{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
-#top {  
-    margin-right: 6%; 
+
+
+ul>li {
+    margin: 0.5em 0;
+}
+
+#top {
+    margin-right: 6%;
     float: right;
     text-decoration: none;
     padding: 1em;
@@ -139,55 +138,46 @@ ul>li{
     margin-top: calc(0vh + var(--offset));
     --offset: -4%;
 
-    cursor:pointer;
-  }
+    cursor: pointer;
+}
 
 
 .footer-container {
-    display: flex;  
+    display: flex;
     justify-content: space-around;
     background-color: #000000;
     color: #fff;
     padding: 20px;
     border-top: 1px solid white;
-    
-  }
-  
+
+}
+
 
 .footer-section {
     max-width: 300px;
-  }
-  
-  .contact-me{
+}
+
+.contact-me {
     padding-bottom: 1em;
-  }
-  .icons{
+}
+
+.icons {
     max-width: 60%;
     padding-top: 1em;
-  }
- 
-  
-  .bottom-footer {
+}
+
+
+.bottom-footer {
     background-color: #101010;
     padding: 10px;
     text-align: center;
     color: #fff;
     border: 1px white;
-  }
+}
 
 /*/////////////////////////////////// Career page styling/////////////////////////////////// */
 body.career {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    background-color: #a6d5c9;
-    color: white;
     background-image: url('images/career/background5.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
-   
 }
 
 header.career {
@@ -197,13 +187,13 @@ header.career {
     text-align: center;
 }
 
-nav.career   {
+nav.career {
     display: flex;
     justify-content: center;
     background-color: #101010;
     padding: 0.5em;
-    border-top: 1px  solid white;
-    border-bottom: 1px  solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 nav a {
@@ -218,66 +208,65 @@ nav a {
 .title {
     color: whitesmoke;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    border-bottom:1px solid whitesmoke;
-    margin-left: 20%;
-    margin-right: 25%;
-    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid whitesmoke;
+    margin: 0 25% 1% 20%;
+    font-size: 2.5em;
 }
 
-div.myfreelance{
-    color:black;
+div.myfreelance {
+    color: black;
     padding: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20% 0 20%;
     background-color: whitesmoke;
     border: 5px solid #000000;
     max-width: 880px;
 }
 
-.freelance-img{
+.freelance-img {
     border: 5px solid #000000;
-    margin-left: 20%;
-    margin-bottom: 14px;
+    margin: 0 0 14px 20%;
 }
 
-.stroomcontainer{
-    display:flex;
+.stroomcontainer {
+    display: flex;
     margin-bottom: 1%;
 }
 
-.myStroom{
-    color:whitesmoke;
+.myStroom {
+    color: whitesmoke;
     padding: 1em;
     margin-top: 1%;
     margin-left: 20%;
+    margin: 1% 0 0 20%;
     background-color: #000000;
     border: 5px solid whitesmoke;
     max-width: 440px;
 }
 
-.stroom-img{
+.stroom-img {
     border: 5px solid whitesmoke;
     max-width: 400px;
     max-height: 550px;
     margin-top: 1%;
     margin-left: 28px;
+    margin: 1% 0 0 28px;
 }
 
-.gatecontainer{
-    display:flex;
+.gatecontainer {
+    display: flex;
     margin-bottom: 3%;
 }
 
-.gate-img{
+.gate-img {
     border: 5px solid #000000;
     max-width: 400px;
     max-height: 550px;
     margin-left: 20%;
 }
 
-.myGate{
-    color:black;
+.myGate {
+    color: black;
     padding: 1em;
     margin-left: 28px;
     background-color: whitesmoke;
@@ -290,14 +279,7 @@ div.myfreelance{
 
 /*/////////////////////////////////// Chess page styling/////////////////////////////////// */
 body.chess {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    background-color: #86592d;
     background-image: url('images/chess/background3.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 header.chess {
@@ -312,8 +294,8 @@ nav.chess {
     justify-content: center;
     background-color: #101010;
     padding: 0.5em;
-    border-top: 1px  solid white;
-    border-bottom: 1px  solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 
 }
 
@@ -325,54 +307,56 @@ nav a {
     border-radius: 4px;
 }
 
-.chessHeader{
+.chessHeader {
     color: white;
     text-align: center;
     border-bottom: 1px solid white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20% 0 20%;
 }
-.chess-banner{
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
+
+.chess-banner {
+    display: flex;
+    margin: 0 20% 0 20%;
 }
+
 .flip-card {
     width: 300px;
     height: 300px;
     perspective: 1000px;
     margin: 10px;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color: #86592d;
-  }
-  
-  .flip-card-back {
+}
+
+.flip-card-back {
     background-color: #332200;
     color: white;
     transform: rotateY(180deg);
-  }
-.chess-img{
+}
+
+.chess-img {
     float: left;
     width: 33.33%;
     margin: 10px;
@@ -380,125 +364,118 @@ nav a {
     max-height: 300px;
     border: 8px solid #332200;
 }
-.chess-img-flip{
+
+.chess-img-flip {
     max-width: 300px;
     max-height: 300px;
     border: 8px solid #332200;
 }
-.img-backtext{
-    margin-top: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
+
+.img-backtext {
+    margin: 40% 10px 0 10px;
 }
-.myChess{
+
+.myChess {
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20% 0 20%;
     padding-bottom: 1%;
     border-bottom: 1px solid white;
 }
 
-div.mychessStats{
-    color: white;   
+div.mychessStats {
+    color: white;
     margin-left: 20%;
 }
 
-.rank-img{
+.rank-img {
     display: flex;
 }
-.graph-img{
+
+.graph-img {
     margin-left: 20%;
     max-width: 28%;
     border: 8px solid #332200;
     margin-right: 2%;
-}   
-.puzzlerank-img{
+}
+
+.puzzlerank-img {
     max-width: 28%;
     border: 8px solid #332200;
 }
 
-.rank-title{
-    display: flex ;
+.rank-title {
+    display: flex;
     color: white;
     margin-left: 20%;
 }
 
-.rank-title>h3{
+.rank-title>h3 {
     margin-right: 31%;
 }
 
-.row-winrate{
+.row-winrate {
     display: flex;
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    border-top: 1px solid white;    
+    margin: 5% 20% 1% 20%;
+    border-top: 1px solid white;
     padding-top: 30px;
 }
 
-.row-winrate h2{
+.row-winrate h2 {
     margin-right: 140px;
-    font-size: xx-large;
+    font-size: 2em;
 }
 
-.table-header{
-    margin-top: 5%;
-    margin-left: 20%;
+.table-header {
+    margin: 5% 0 0 20%;
     color: white;
 }
-.tables{
+
+.tables {
     display: flex;
     margin-bottom: 2%;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     border: 2px solid black;
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
-    padding-right: 68px;
-  }
-  
-  tr:nth-child(even) {
+    padding: 8px 76px 8px 8px;
+}
+
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
-  tr:nth-child(odd) {
-    background-color:#B8B8B8;
-  }
+}
 
-  .table-wins{
+tr:nth-child(odd) {
+    background-color: #B8B8B8;
+}
+
+.table-wins {
     margin-left: 20%;
-  }
+}
 
-  .table-wins th{
+.table-wins th {
     background-color: #0f8c45;
-  }
+}
 
-  .table-draws th{
+.table-draws th {
     background-color: grey;
-  }
+}
 
-  .table-losses th{
-    background-color:indianred;
-  }
+.table-losses th {
+    background-color: indianred;
+}
 
 /*/////////////////////////////////// Music page styling/////////////////////////////////// */
 body.music {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    background-color: #7575a3;
     background-image: url('images/music/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
 }
 
 header.music {
@@ -517,29 +494,29 @@ nav.music {
     border-bottom: 1px solid white;
 }
 
-div.mymusic{
+div.mymusic {
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0% 20%;
     border-bottom: 1px solid white;
 
 }
 
-.songtitle{
+.songtitle {
     float: left;
-    text-align: left;   
+    text-align: left;
     max-width: 600px;
     margin-left: 20%;
     padding-right: 500px;
     color: white;
-}   
-.row-guitar{
+}
+
+.row-guitar {
     float: left;
     margin-left: 20%;
 }
 
-.lyrics{
-    max-width:350px;
+.lyrics {
+    max-width: 350px;
     color: #3d3d5c;
     border: 4px solid#3d3d5c;
     background-color: whitesmoke;
@@ -548,12 +525,13 @@ div.mymusic{
     margin-top: 4%;
 }
 
-.lyrics>p{
+.lyrics>p {
     padding-top: 1.15em;
-    
+
 }
+
 .lyrics2 {
-    max-width:350px;    
+    max-width: 350px;
     color: #3d3d5c;
     border: 4px solid#3d3d5c;
     background-color: whitesmoke;
@@ -561,66 +539,62 @@ div.mymusic{
     margin-top: 4%;
     padding-bottom: 9.8em;
 }
-.lyrics2>p{
+
+.lyrics2>p {
     padding-top: 2em;
-    
-}
-.location-img{
-    float: right;
-    margin-right: 20%;
-    margin-top: 1%;
-    border: 4px solid #3d3d5c;  
+
 }
 
-.location-audio{
+.location-img {
     float: right;
-    margin-top: 1%;
-    margin-right: 20%;
+    margin: 1% 20% 0 0;
+    border: 4px solid #3d3d5c;
+}
+
+.location-audio {
+    float: right;
+    margin: 1% 20% 0 0;
     width: 36%;
 }
 
-.bestpart-img{
+.bestpart-img {
     float: right;
-    margin-right: 20%;
-    margin-top: 1%;
-    border: 4px solid #3d3d5c;  
+    margin: 1% 20% 0 0;
+    border: 4px solid #3d3d5c;
 }
 
-.bestpart-audio{
+.bestpart-audio {
     float: right;
-    margin-top: 1%;
-    margin-right: 20%;
+    margin: 1% 20% 0 0;
     width: 36%;
 }
 
 
 
-.button{
+.button {
     float: right;
-    margin-right: 20%;
-    margin-top: 1%;
+    margin: 1% 20% 0 0;
     width: 608px;
-    font-size:xx-large;
+    font-size: 2em;
     text-align: center;
     border: 2px solid white;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     background-color: #313160;
     color: white;
-    cursor: pointer; 
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: whitesmoke;
     color: black;
     border: 2px solid black;
-       
+
 }
 
-.pagenumber{
+.pagenumber {
     text-align: center;
     color: white;
-    margin-top: 37%;
-    margin-bottom: 3%;
-    
+    margin: 37% 0 3% 0;
 }
